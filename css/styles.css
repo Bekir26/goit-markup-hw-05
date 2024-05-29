@@ -387,6 +387,7 @@ img {
  }
  .footer-form-item {
   display: flex;
+  gap: 24px;
  }
  .footer-email-input {
   width: 264px;
@@ -555,7 +556,7 @@ img {
   justify-content: center; 
   fill: transparent;
  }
- input:checked .label-span-text {
+ input:checked span {
   background-color: #404bbf;
   border: none; 
   fill:  #F4F4FD; 
