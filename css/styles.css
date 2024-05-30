@@ -578,6 +578,6 @@ img {
  }
  input:checked, span {
   background-color: #404bbf;
-  border: none;
-  fill: #F4F4FD;
+  border: none; 
+  fill: #F4F4FD; 
  }
