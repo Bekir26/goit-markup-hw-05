@@ -576,10 +576,14 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: auto;
  }
- input:checked, span {
+.input-text:focus ~ .input-image-text {
+  fill: #4D5AE5;
+}
+.textarea-text:focus ~ .input-text {
+  border-color: #4D5AE5; 
+}
+.accept-input-text:checked ~ .label-span-text {
   background-color: #404bbf;
- }
- input:checked, .label-span-text {
-  border: none;
-  fill:  #F4F4FD; 
- }
+  border: none; 
+  fill: #F4F4FD;
+}
