@@ -579,11 +579,11 @@ img {
 .input-text:focus ~ .input-image-text {
   fill: #4D5AE5;
 }
-.textarea-text:focus ~ .input-text {
+.textarea-text:focus.is-border{
   border-color: #4D5AE5; 
 }
-.accept-input-text:checked ~ .label-span-text {
+input[type="checkbox"]:checked + label .label-span-text {
   background-color: #404bbf;
-  border: none; 
+  border: none;
   fill: #F4F4FD;
 }
